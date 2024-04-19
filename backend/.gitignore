@@ -1,0 +1,25 @@
+# Python files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+env/
+*.env
+
+# log files directory
+/app_log/BacklogGenAIChat*
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# FastAPI specific files
+fastapi.sqlite
+
+# VS Code files
+.vscode/
