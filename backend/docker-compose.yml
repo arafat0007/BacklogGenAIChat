@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: BacklogGenAIChat
+    environment:
+      MYSQL_ROOT_PASSWORD: backlog
+    ports:
+      - "3306:3306"
